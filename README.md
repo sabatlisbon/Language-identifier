@@ -6,9 +6,9 @@ We will use the W2C corpus for training http://ufal.mff.cuni.cz/~majlis/w2c/down
 
 The algorithm that we will be using the algorithm described in Cavnar, Bill and Trenkle, John http://odur.let.rug.nl/vannoord/TextCat/textcat.pdf
 
- <!--> consider use the LIBSVM[https://www.csie.ntu.edu.tw/~cjlin/libsvm/]. -->
+ <!-- consider use the LIBSVM[https://www.csie.ntu.edu.tw/~cjlin/libsvm/]. -->
 
 Modules of this project:
-- N-Grammar computer (removing punctuation and numbers)
+- N-Grammar computer (including removing punctuation and numbers)
 - Trainer (uses the n-grammar from a base training set to compute the top n-gramms)
 - Vector comparer (to several languages)
