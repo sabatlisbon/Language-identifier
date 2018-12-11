@@ -1,0 +1,12 @@
+// config.json
+{
+    "DEFAULT": {
+      "LANGUAGE_PT_VECTOR_FILE": "PT_Lang.vec",
+      "LANGUAGE_ENG_VECTOR_FILE": "ENG_Lang.vec",
+      "NUM_OF_NGRAMS" : "300"
+    },
+    "TEST": {
+      "LANG_TEST_VECTOR_FILE": "TST_Lang.vec",
+      "NUM_OF_NGRAMS" : "100"
+    }
+  }
