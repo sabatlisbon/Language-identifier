@@ -1,12 +1,20 @@
 // config.json
 {
     "DEFAULT": {
-      "LANGUAGE_PT_VECTOR_FILE": "PT_Lang.vec",
-      "LANGUAGE_ENG_VECTOR_FILE": "ENG_Lang.vec",
+      "LANGUAGE1_VECTOR_FILE": "PT_Lang.vec",
+      "LANGUAGE1_DESCRIPTION": "Portuguese",
+      "LANGUAGE1_SUFFIX" : "PT",
+
+      "LANGUAGE2_VECTOR_FILE": "ENG_Lang.vec",
+      "LANGUAGE2_DESCRIPTION": "English",
+      "LANGUAGE2_SUFFIX" : "ENG",
+
       "NUM_OF_NGRAMS" : "300"
     },
     "TEST": {
       "LANG_TEST_VECTOR_FILE": "TST_Lang.vec",
+      "LANG_TEST_DESCRIPTION" : "Teste Language",
+      "LANG_TEST_SUFFIX": "TST",
       "NUM_OF_NGRAMS" : "100"
     }
   }
